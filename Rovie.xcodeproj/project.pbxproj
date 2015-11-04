@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D23DA91BE9C0E1006279C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D23DA81BE9C0E1006279C7 /* AppDelegate.swift */; };
+		03D23DAB1BE9C0E1006279C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D23DAA1BE9C0E1006279C7 /* ViewController.swift */; };
+		03D23DAE1BE9C0E1006279C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D23DAC1BE9C0E1006279C7 /* Main.storyboard */; };
+		03D23DB01BE9C0E1006279C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D23DAF1BE9C0E1006279C7 /* Assets.xcassets */; };
+		03D23DB31BE9C0E1006279C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D23DB11BE9C0E1006279C7 /* LaunchScreen.storyboard */; };
+		03D23DBE1BE9C0E1006279C7 /* RovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D23DBD1BE9C0E1006279C7 /* RovieTests.swift */; };
+		03D23DC91BE9C0E1006279C7 /* RovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D23DC81BE9C0E1006279C7 /* RovieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D23DBA1BE9C0E1006279C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D23D9D1BE9C0E1006279C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D23DA41BE9C0E1006279C7;
+			remoteInfo = Rovie;
+		};
+		03D23DC51BE9C0E1006279C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D23D9D1BE9C0E1006279C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D23DA41BE9C0E1006279C7;
+			remoteInfo = Rovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D23DA51BE9C0E1006279C7 /* Rovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D23DA81BE9C0E1006279C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03D23DAA1BE9C0E1006279C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03D23DAD1BE9C0E1006279C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03D23DAF1BE9C0E1006279C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D23DB21BE9C0E1006279C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03D23DB41BE9C0E1006279C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D23DB91BE9C0E1006279C7 /* RovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D23DBD1BE9C0E1006279C7 /* RovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RovieTests.swift; sourceTree = "<group>"; };
+		03D23DBF1BE9C0E1006279C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D23DC41BE9C0E1006279C7 /* RovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D23DC81BE9C0E1006279C7 /* RovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RovieUITests.swift; sourceTree = "<group>"; };
+		03D23DCA1BE9C0E1006279C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D23DA21BE9C0E1006279C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D23DB61BE9C0E1006279C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D23DC11BE9C0E1006279C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D23D9C1BE9C0E1006279C7 = {
+			isa = PBXGroup;
+			children = (
+				03D23DA71BE9C0E1006279C7 /* Rovie */,
+				03D23DBC1BE9C0E1006279C7 /* RovieTests */,
+				03D23DC71BE9C0E1006279C7 /* RovieUITests */,
+				03D23DA61BE9C0E1006279C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D23DA61BE9C0E1006279C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D23DA51BE9C0E1006279C7 /* Rovie.app */,
+				03D23DB91BE9C0E1006279C7 /* RovieTests.xctest */,
+				03D23DC41BE9C0E1006279C7 /* RovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D23DA71BE9C0E1006279C7 /* Rovie */ = {
+			isa = PBXGroup;
+			children = (
+				03D23DA81BE9C0E1006279C7 /* AppDelegate.swift */,
+				03D23DAA1BE9C0E1006279C7 /* ViewController.swift */,
+				03D23DAC1BE9C0E1006279C7 /* Main.storyboard */,
+				03D23DAF1BE9C0E1006279C7 /* Assets.xcassets */,
+				03D23DB11BE9C0E1006279C7 /* LaunchScreen.storyboard */,
+				03D23DB41BE9C0E1006279C7 /* Info.plist */,
+			);
+			path = Rovie;
+			sourceTree = "<group>";
+		};
+		03D23DBC1BE9C0E1006279C7 /* RovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				03D23DBD1BE9C0E1006279C7 /* RovieTests.swift */,
+				03D23DBF1BE9C0E1006279C7 /* Info.plist */,
+			);
+			path = RovieTests;
+			sourceTree = "<group>";
+		};
+		03D23DC71BE9C0E1006279C7 /* RovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03D23DC81BE9C0E1006279C7 /* RovieUITests.swift */,
+				03D23DCA1BE9C0E1006279C7 /* Info.plist */,
+			);
+			path = RovieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D23DA41BE9C0E1006279C7 /* Rovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D23DCD1BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "Rovie" */;
+			buildPhases = (
+				03D23DA11BE9C0E1006279C7 /* Sources */,
+				03D23DA21BE9C0E1006279C7 /* Frameworks */,
+				03D23DA31BE9C0E1006279C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rovie;
+			productName = Rovie;
+			productReference = 03D23DA51BE9C0E1006279C7 /* Rovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D23DB81BE9C0E1006279C7 /* RovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D23DD01BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "RovieTests" */;
+			buildPhases = (
+				03D23DB51BE9C0E1006279C7 /* Sources */,
+				03D23DB61BE9C0E1006279C7 /* Frameworks */,
+				03D23DB71BE9C0E1006279C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D23DBB1BE9C0E1006279C7 /* PBXTargetDependency */,
+			);
+			name = RovieTests;
+			productName = RovieTests;
+			productReference = 03D23DB91BE9C0E1006279C7 /* RovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03D23DC31BE9C0E1006279C7 /* RovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D23DD31BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "RovieUITests" */;
+			buildPhases = (
+				03D23DC01BE9C0E1006279C7 /* Sources */,
+				03D23DC11BE9C0E1006279C7 /* Frameworks */,
+				03D23DC21BE9C0E1006279C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D23DC61BE9C0E1006279C7 /* PBXTargetDependency */,
+			);
+			name = RovieUITests;
+			productName = RovieUITests;
+			productReference = 03D23DC41BE9C0E1006279C7 /* RovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D23D9D1BE9C0E1006279C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = codeit;
+				TargetAttributes = {
+					03D23DA41BE9C0E1006279C7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GD42XH779X;
+					};
+					03D23DB81BE9C0E1006279C7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GD42XH779X;
+						TestTargetID = 03D23DA41BE9C0E1006279C7;
+					};
+					03D23DC31BE9C0E1006279C7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GD42XH779X;
+						TestTargetID = 03D23DA41BE9C0E1006279C7;
+					};
+				};
+			};
+			buildConfigurationList = 03D23DA01BE9C0E1006279C7 /* Build configuration list for PBXProject "Rovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D23D9C1BE9C0E1006279C7;
+			productRefGroup = 03D23DA61BE9C0E1006279C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D23DA41BE9C0E1006279C7 /* Rovie */,
+				03D23DB81BE9C0E1006279C7 /* RovieTests */,
+				03D23DC31BE9C0E1006279C7 /* RovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D23DA31BE9C0E1006279C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D23DB31BE9C0E1006279C7 /* LaunchScreen.storyboard in Resources */,
+				03D23DB01BE9C0E1006279C7 /* Assets.xcassets in Resources */,
+				03D23DAE1BE9C0E1006279C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D23DB71BE9C0E1006279C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D23DC21BE9C0E1006279C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D23DA11BE9C0E1006279C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D23DAB1BE9C0E1006279C7 /* ViewController.swift in Sources */,
+				03D23DA91BE9C0E1006279C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D23DB51BE9C0E1006279C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D23DBE1BE9C0E1006279C7 /* RovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D23DC01BE9C0E1006279C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D23DC91BE9C0E1006279C7 /* RovieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D23DBB1BE9C0E1006279C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D23DA41BE9C0E1006279C7 /* Rovie */;
+			targetProxy = 03D23DBA1BE9C0E1006279C7 /* PBXContainerItemProxy */;
+		};
+		03D23DC61BE9C0E1006279C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D23DA41BE9C0E1006279C7 /* Rovie */;
+			targetProxy = 03D23DC51BE9C0E1006279C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03D23DAC1BE9C0E1006279C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D23DAD1BE9C0E1006279C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03D23DB11BE9C0E1006279C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D23DB21BE9C0E1006279C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D23DCB1BE9C0E1006279C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03D23DCC1BE9C0E1006279C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D23DCE1BE9C0E1006279C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeit.space.Rovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03D23DCF1BE9C0E1006279C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rovie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeit.space.Rovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03D23DD11BE9C0E1006279C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeit.space.RovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rovie.app/Rovie";
+			};
+			name = Debug;
+		};
+		03D23DD21BE9C0E1006279C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeit.space.RovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rovie.app/Rovie";
+			};
+			name = Release;
+		};
+		03D23DD41BE9C0E1006279C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeit.space.RovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rovie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03D23DD51BE9C0E1006279C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codeit.space.RovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Rovie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D23DA01BE9C0E1006279C7 /* Build configuration list for PBXProject "Rovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D23DCB1BE9C0E1006279C7 /* Debug */,
+				03D23DCC1BE9C0E1006279C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D23DCD1BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "Rovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D23DCE1BE9C0E1006279C7 /* Debug */,
+				03D23DCF1BE9C0E1006279C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03D23DD01BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "RovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D23DD11BE9C0E1006279C7 /* Debug */,
+				03D23DD21BE9C0E1006279C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03D23DD31BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "RovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D23DD41BE9C0E1006279C7 /* Debug */,
+				03D23DD51BE9C0E1006279C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D23D9D1BE9C0E1006279C7 /* Project object */;
+}
