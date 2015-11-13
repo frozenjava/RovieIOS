@@ -23,6 +23,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.connectionStatusLabel.hidden = true
+        
+        // call the hideKeyboard method when the view is tapped
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "hideKeyboard")
+        view.addGestureRecognizer(tap)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,6 +35,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func hideKeyboard() {
+        view.endEditing(true)
+    }
+    
     /**
      * sendConnectionStatus
      * Set the connectionStatusLabel text to msg
