@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037AED3F1C07BB58006AF179 /* Communications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037AED3E1C07BB58006AF179 /* Communications.swift */; };
+		037AED411C07C482006AF179 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037AED401C07C482006AF179 /* ActivityViewController.swift */; };
+		037AED451C07CA6C006AF179 /* RovieControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037AED441C07CA6C006AF179 /* RovieControllerViewController.swift */; };
 		03D23DA91BE9C0E1006279C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D23DA81BE9C0E1006279C7 /* AppDelegate.swift */; };
 		03D23DAB1BE9C0E1006279C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D23DAA1BE9C0E1006279C7 /* ViewController.swift */; };
 		03D23DAE1BE9C0E1006279C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D23DAC1BE9C0E1006279C7 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037AED3E1C07BB58006AF179 /* Communications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Communications.swift; sourceTree = "<group>"; };
+		037AED401C07C482006AF179 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		037AED441C07CA6C006AF179 /* RovieControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RovieControllerViewController.swift; sourceTree = "<group>"; };
 		03D23DA51BE9C0E1006279C7 /* Rovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D23DA81BE9C0E1006279C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D23DAA1BE9C0E1006279C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				03D23DAF1BE9C0E1006279C7 /* Assets.xcassets */,
 				03D23DB11BE9C0E1006279C7 /* LaunchScreen.storyboard */,
 				03D23DB41BE9C0E1006279C7 /* Info.plist */,
+				037AED3E1C07BB58006AF179 /* Communications.swift */,
+				037AED401C07C482006AF179 /* ActivityViewController.swift */,
+				037AED441C07CA6C006AF179 /* RovieControllerViewController.swift */,
 			);
 			path = Rovie;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037AED451C07CA6C006AF179 /* RovieControllerViewController.swift in Sources */,
+				037AED3F1C07BB58006AF179 /* Communications.swift in Sources */,
 				03D23DAB1BE9C0E1006279C7 /* ViewController.swift in Sources */,
 				03D23DA91BE9C0E1006279C7 /* AppDelegate.swift in Sources */,
+				037AED411C07C482006AF179 /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +501,7 @@
 				03D23DCF1BE9C0E1006279C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03D23DD01BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "RovieTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +510,7 @@
 				03D23DD21BE9C0E1006279C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03D23DD31BE9C0E1006279C7 /* Build configuration list for PBXNativeTarget "RovieUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +519,7 @@
 				03D23DD51BE9C0E1006279C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
